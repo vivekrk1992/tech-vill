@@ -1,0 +1,18 @@
+[
+{
+  "model": "main.usertype",
+  "pk": 1,
+  "fields": {
+    "name": "maligai",
+    "notes": "for maligai store"
+  }
+},
+{
+  "model": "main.usertype",
+  "pk": 2,
+  "fields": {
+    "name": "mobile",
+    "notes": "for mobile store"
+  }
+}
+]

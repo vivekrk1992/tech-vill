@@ -21,6 +21,10 @@ urlpatterns = i18n_patterns(
     # Change the admin prefix here to use an alternate URL for the
     # admin interface, which would be marginally more secure.
     url("^admin/", include(admin.site.urls)),
+    url("^maligai/", include('maligai.urls')),
+    url("^mobile/", include('mobile.urls')),
+    url("^main/", include('main.urls')),
+    url("^uram/", include('uram.urls')),
 )
 
 if settings.USE_MODELTRANSLATION:
